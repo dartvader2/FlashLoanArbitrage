@@ -1,10 +1,9 @@
 from web3 import Web3
 import time
 
-alchemy_url = "your_alchemy_url"
-web3 = Web3(Web3.HTTPProvider(alchemy_url))
+infura_url = "your_infura_url"
+web3 = Web3(Web3.HTTPProvider(infura_url))
 print(web3.is_connected())
-
 arbitrage_account = 'addressForTheAccount'
 key = 'your_private_key'
 USDC = '0xda9d4f9b69ac6C22e444eD9aF0CfC043b7a7f53f'
